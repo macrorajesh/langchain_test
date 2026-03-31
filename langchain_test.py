@@ -15,7 +15,7 @@ from langchain.chains import RetrievalQA
 
 
 # Set your OpenAI API key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 # Step 1: Prepare Telecom Knowledge Base (documents, FAQs, chat logs)
 telecom_docs = [
